@@ -21,7 +21,7 @@ composer require eduvo/php-api-library
 ### Client
 Before using the API library, you need to create a new Client using your API Token.
 ```php
-$client = new \ManageBac\Client('YOUR API TOKEN');
+$client = new \Eduvo\Client('YOUR API TOKEN');
 ```
 ### Examples
 Here are some examples of how to use the various endpoints in the library.

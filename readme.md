@@ -18,6 +18,10 @@ or
 composer require eduvo/php-api-library
 ```
 ## Usage
+After installing with composer, make sure to include the following line at the top of your php file.
+```php
+require 'vendor/autoload.php';
+```
 ### Client
 Before using the API library, you need to create a new Client using your API Token.
 ```php

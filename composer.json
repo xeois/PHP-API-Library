@@ -1,9 +1,9 @@
 {
-    "name" : "eduvo/php-api-library",
+    "name" : "xeois/php-api-library",
     "type": "library",
     "description": "Client library for the ManageBac v2 API",
     "keywords": ["api","managebac"],
-    "homepage": "https://github.com/eduvo/PHP-API-Library",
+    "homepage": "https://github.com/xeois/PHP-API-Library",
     "license": "MIT",
     "authors": [
         {

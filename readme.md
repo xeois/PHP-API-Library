@@ -15,7 +15,7 @@ Using Composer:
 ```
 or 
 ```bash
-composer require eduvo/php-api-library
+composer require xeois/php-api-library
 ```
 ## Usage
 After installing with composer, make sure to include the following line at the top of your php file.

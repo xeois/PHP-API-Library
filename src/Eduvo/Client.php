@@ -5,6 +5,7 @@ use Eduvo\Endpoints\IbGroups;
 use Eduvo\Endpoints\Parents;
 use Eduvo\Endpoints\Students;
 use Eduvo\Endpoints\Teachers;
+use Eduvo\Endpoints\School;
 
 class Client
 {
@@ -32,6 +33,10 @@ class Client
      * @var Teachers
      */
     public $teachers;
+    /**
+     * @var School
+     */
+    public $school;
 
     /**
      * Client constructor.
@@ -45,5 +50,6 @@ class Client
         $this->parents = new Parents($token);
         $this->students = new Students($token);
         $this->teachers = new Teachers($token);
+        $this->school = new School($token);
     }
 }

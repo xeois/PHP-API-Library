@@ -9,7 +9,7 @@ Using Composer:
 ```json
 {
     "require": {
-      "eduvo/php-api-library": "1.*"
+      "xeois/php-api-library": "1.*"
     }
 }
 ```
